@@ -41,9 +41,11 @@ Para verificar que Node.js se ha instalado correctamente, abre una terminal o lÃ
 ```bash
 node -v
 
+```
+
 ## Clonar el Repositorio
 
-Para clonar Ãºnicamente el repositorio, sigue estos pasos:
+Para clonar el repositorio, sigue estos pasos:
 
 ### 1. Clonar el Repositorio
 
@@ -62,18 +64,17 @@ cd backend
 
 ```
 
-ahora instala las dependencias de node.js
+Ahora instala las dependencias de node.js
 
 ```bash
 npm install
 ```
-Despues de insralar las dependencias, crea el archivo .env con el puerto. 
+Despues de instalar las dependencias, crea el archivo .env con el puerto. 
 
 ```bash
 echo "PORT=5001" > .env
 
 ```
-
 
 Inicia el servidor node:
 
