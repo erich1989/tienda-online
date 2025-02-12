@@ -134,9 +134,9 @@ Esto abrirá la aplicación en tu navegador, generalmente en http://localhost:30
 
 Con estos pasos, has configurado correctamente tanto el backend como el frontend de la aplicación. Ahora puedes ejecutar la aplicación en tu entorno local:
 
-### 1. Backend: Asegúrate de que el servidor esté en ejecución con npm run dev en la carpeta backend.
+**1. Backend:** Asegúrate de que el servidor esté en ejecución con npm run dev en la carpeta backend.
 
-### 2. Frontend: Inicia la aplicación de React con npm start en la carpeta frontend.
+**2. Frontend:** Inicia la aplicación de React con npm start en la carpeta frontend.
 
 Una vez que ambos servidores estén en funcionamiento, puedes acceder a la aplicación desde tu navegador en:
 
