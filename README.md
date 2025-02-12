@@ -55,7 +55,7 @@ Abre una terminal y ejecuta el siguiente comando para clonar el repositorio del 
 git clone https://github.com/erich1989/tienda-online.git
 
 ```
-## Instalación y configuración del del Backend (Node.js)
+## Instalación y configuración del Backend (Node.js)
 
 ### 1. Accede a la carpeta backend:
 
@@ -127,3 +127,5 @@ Una vez configurado el entorno, inicia la aplicación con el siguiente comando:
 ```bash
 npm start
 ```
+
+Esto abrirá la aplicación en tu navegador, generalmente en http://localhost:3000.
