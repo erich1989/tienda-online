@@ -55,7 +55,7 @@ Abre una terminal y ejecuta el siguiente comando para clonar el repositorio del 
 git clone https://github.com/erich1989/tienda-online.git
 
 ```
-## Instalar dependencias del backend 
+## Instalación y configuración del del Backend (Node.js)
 
 ### 1. Accede a la carpeta backend:
 
@@ -94,4 +94,36 @@ npm run dev
 Esto ejecutará el servidor en el puerto especificado en el archivo .env (en este caso, el puerto 5001).
 
 
+## Instalación y configuración del frontend (React)
 
+### 1. Accede a la carpeta frontend:
+
+Abre tu terminal y navega hasta la carpeta **frontend** con el siguiente comando:
+
+```bash
+cd backend
+
+```
+### 2. Instala las dependencias de Node.js:
+
+Una vez dentro de la carpeta frontend, ejecuta el siguiente comando para instalar todas las dependencias necesarias:
+
+```bash
+npm install
+```
+
+### 3. Crea el archivo .env:
+
+React utiliza variables de entorno para configurar aspectos como la URL del backend o claves de API. Crea un archivo **.env** en la raíz de la carpeta frontend con el siguiente comando:
+
+```bash
+echo "REACT_APP_BACKEND_URL=http://localhost:5001/api/v1" > .env
+```
+
+### 4. Inicia la aplicación de React:
+
+Una vez configurado el entorno, inicia la aplicación con el siguiente comando:
+
+```bash
+npm start
+```
