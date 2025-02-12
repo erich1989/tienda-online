@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const routerApi = require('./routes');
 // const { connect } = require('./libs/sequelize');
-const connectionMg = require('./libs/mongoose');
+// const connectionMg = require('./libs/mongoose');
 
 const app = express();
 app.use(cors());
@@ -14,7 +14,7 @@ app.use(bodyParser.json({ extended: true, limit: '50mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb', parameterLimit:50000 }));
 app.use(bodyParser.raw({ type: 'application/x-xz', limit: '50mb' }));
 
-connectionMg();
+// connectionMg();
 routerApi(app);
 
 app.use('/app', express.static('public'));
