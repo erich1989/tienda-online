@@ -57,31 +57,41 @@ git clone https://github.com/erich1989/tienda-online.git
 ```
 ## Instalar dependencias del backend 
 
-Ingresa a la carperta backend,
+### 1. Accede a la carpeta backend:
+
+Abre tu terminal y navega hasta la carpeta backend con el siguiente comando:
 
 ```bash
 cd backend
 
 ```
 
-Ahora instala las dependencias de node.js
+### 2. Instala las dependencias de Node.js:
+
+Una vez dentro de la carpeta backend, ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
 ```bash
 npm install
 ```
-Despues de instalar las dependencias, crea el archivo .env con el puerto. 
+### 3. Crea el archivo .env:
+
+Después de instalar las dependencias, crea un archivo **.env** en la raíz de la carpeta backend para configurar el puerto en el que se ejecutará el servidor. Usa el siguiente comando:
 
 ```bash
 echo "PORT=5001" > .env
 
 ```
 
-Inicia el servidor node:
+### 4. Inicia el servidor:
+
+Finalmente, inicia el servidor de desarrollo con el siguiente comando:
 
 ```bash
 npm run dev
 
 ```
+
+Esto ejecutará el servidor en el puerto especificado en el archivo .env (en este caso, el puerto 5001).
 
 
 
