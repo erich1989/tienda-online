@@ -101,7 +101,7 @@ Esto ejecutará el servidor en el puerto especificado en el archivo .env (en est
 Abre tu terminal y navega hasta la carpeta **frontend** con el siguiente comando:
 
 ```bash
-cd backend
+cd frontend
 
 ```
 ### 2. Instala las dependencias de Node.js:
