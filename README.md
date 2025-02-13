@@ -28,10 +28,9 @@ Este proyecto es una aplicación **fullstack** que consta de dos partes principa
 
 ## Instalación
 
+### Prerrequisitos
+
 ### Notas adicionales para Windows:
-
-
-### Prerrequisitos: 
 
 **Uso de PowerShell**: Si estás utilizando PowerShell en lugar del Símbolo del sistema (CMD), los comandos son los mismos, pero asegúrate de que PowerShell esté configurado para ejecutar scripts si es necesario.
 
@@ -42,6 +41,8 @@ Set-ExecutionPolicy RemoteSigned
 ```
 
 Editor de texto: Para editar archivos como .env, puedes usar el Bloc de notas o un editor de texto como Visual Studio Code.
+
+### Instalación de Node.js 
 
 Antes de instalar el backend, asegúrate de tener **Node.js** (versión 14 o superior) instalado en tu computadora. Si no tienes Node.js, sigue estos pasos para instalarlo:
 
